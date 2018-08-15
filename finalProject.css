@@ -1,7 +1,7 @@
 body {
     background-image: url("background1.jpg");
 }
-h1 {
+#title {
     text-align: center;
     font-size: 100px;
     font-family: 'Courier New', Courier, monospace;
@@ -20,8 +20,6 @@ h1 {
     font-size: 30px;
 
 }
-
-
 
 
 /* Add a black background color to the top navigation */
@@ -50,4 +48,63 @@ h1 {
 /* Right-aligned section inside the top navigation */
 .topnav-right {
   float: right;
+}
+
+
+
+.cell-img {
+	text-align: center;
+}
+
+.cell-counter {
+	width: 50px;
+	text-align: center;
+	color: #c71ec7;
+	background-color: #819fcc59;
+}
+
+.cell-desc {
+	width: 800px;
+	text-align: justify;
+}
+
+.cell-desc h4 {
+	padding-left: 20px;
+	color: #c516c5;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	font-size: 16px;
+}
+
+.cell-desc p {
+	padding-left: 40px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+
+
+.images {
+	display: block;
+	margin-left: auto;
+	max-width: 200px;
+    max-height: 100px;
+}
+
+td{
+    padding: 30px;
+} th{
+    padding: 30px;
+}
+
+
+.clothes{
+    text-align: center;
+    font-weight: bold;
+}
+
+.store-name{
+    text-align: center;
 }
