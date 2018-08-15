@@ -3,32 +3,30 @@ body {
 }
 h1 {
     text-align: center;
-    font-size: 55px;
-    font-family: 'Courier New', Courier, monospace
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    color: coral;
 }
-button {
-    background-color: lightsalmon;
-    border: none;
+
+.sizes{
+    background-color: #ca526c;
+    padding: 40px 80px;
+    padding-bottom: 200px;
+    line-height: 400px; 
+    margin-left: 110px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     color: white;
-    padding: 15px 32px;
-    text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-} button:hover {
-    color: black;
+    font-size: 30px;
+
 }
-
-
-
-
 
 
 
 
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #333;
+    background-color: rgb(241, 137, 137);
     overflow: hidden;
 }
 
@@ -48,11 +46,6 @@ button {
   color: black;
 }
 
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #4CAF50;
-  color: white;
-}
 
 /* Right-aligned section inside the top navigation */
 .topnav-right {
