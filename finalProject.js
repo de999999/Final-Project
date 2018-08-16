@@ -19,7 +19,7 @@ window.onload = function(){
     //jEAHFAK,JSNFDKAMDZNXmansD KJWADBFJWAMSD,JlndsiuKJEARKJWADSNMKJASS
     var modal2 = document.getElementById("myModal2");
     var btn2 = document.getElementById("myBtn2");
-    var span2 = document.getElementsByClassName("close")[0];
+    var span2 = document.getElementsByClassName("close")[1];
     btn2.onclick = function() {
         modal2.style.display = "block";
         console.log("hello");
