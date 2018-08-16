@@ -48,5 +48,6 @@ window.onload = function(){
         modal5.style.display = "block";
     }
     span5.onclick = function() {
-        modal5.style.display = "none";
+        modal5.style.display = "none"; 
     }
+}
