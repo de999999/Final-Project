@@ -10,11 +10,6 @@ window.onload = function(){
     span.onclick = function() {
         modal.style.display = "none";
     }
-    window.onclick = function(event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
-    }
     //jEAHFAK,JSNFDKAMDZNXmansD KJWADBFJWAMSD,JlndsiuKJEARKJWADSNMKJASS
     var modal2 = document.getElementById("myModal2");
     var btn2 = document.getElementById("myBtn2");
@@ -24,11 +19,6 @@ window.onload = function(){
     }
     span2.onclick = function() {
         modal2.style.display = "none";
-    }
-    window.onclick = function(event) {
-        if (event.target == modal2) {
-            modal2.style.display = "none";
-        }
     }
     //jEAHFAK,JSNFDKAMDZNXmansD KJWADBFJWAMSD,JlndsiuKJEARKJWADSNMKJASS
     var modal3 = document.getElementById("myModal3");
@@ -40,11 +30,6 @@ window.onload = function(){
     span3.onclick = function() {
         modal3.style.display = "none";
     }
-    window.onclick = function(event) {
-        if (event.target == modal3) {
-            modal3.style.display = "none";
-        }
-    }
     //jEAHFAK,JSNFDKAMDZNXmansD KJWADBFJWAMSD,JlndsiuKJEARKJWADSNMKJASS
     var modal4 = document.getElementById("myModal4");
     var btn4 = document.getElementById("myBtn4");
@@ -54,11 +39,6 @@ window.onload = function(){
     }
     span4.onclick = function() {
         modal4.style.display = "none";
-    }
-    window.onclick = function(event) {
-        if (event.target == modal4) {
-            modal4.style.display = "none";
-        }
     }
     //jEAHFAK,JSNFDKAMDZNXmansD KJWADBFJWAMSD,JlndsiuKJEARKJWADSNMKJASS
     var modal5 = document.getElementById("myModal5");
@@ -70,10 +50,45 @@ window.onload = function(){
     span5.onclick = function() {
         modal5.style.display = "none";
     }
-    window.onclick = function(event) {
-        if (event.target == modal5) {
+        //jEAHFAK,JSNFDKAMDZNXmansD KJWADBFJWAMSD,JlndsiuKJEARKJWADSNMKJASS
+        var modal6 = document.getElementById("myModal6");
+        var btn6 = document.getElementById("myBtn6");
+        var span6 = document.getElementsByClassName("close")[5];
+        btn6.onclick = function() {
+            modal6.style.display = "block";
+        }
+        span6.onclick = function() {
+            modal6.style.display = "none";
+        }
+        //jEAHFAK,JSNFDKAMDZNXmansD KJWADBFJWAMSD,JlndsiuKJEARKJWADSNMKJASS
+        var modal3 = document.getElementById("myModal3");
+        var btn3 = document.getElementById("myBtn3");
+        var span3 = document.getElementsByClassName("close")[2];
+        btn3.onclick = function() {
+            modal3.style.display = "block";
+        }
+        span3.onclick = function() {
+            modal3.style.display = "none";
+        }
+        //jEAHFAK,JSNFDKAMDZNXmansD KJWADBFJWAMSD,JlndsiuKJEARKJWADSNMKJASS
+        var modal4 = document.getElementById("myModal4");
+        var btn4 = document.getElementById("myBtn4");
+        var span4 = document.getElementsByClassName("close")[3];
+        btn4.onclick = function() {
+            modal4.style.display = "block";
+        }
+        span4.onclick = function() {
+            modal4.style.display = "none";
+        }
+        //jEAHFAK,JSNFDKAMDZNXmansD KJWADBFJWAMSD,JlndsiuKJEARKJWADSNMKJASS
+        var modal5 = document.getElementById("myModal5");
+        var btn5 = document.getElementById("myBtn5");
+        var span5 = document.getElementsByClassName("close")[4];
+        btn5.onclick = function() {
+            modal5.style.display = "block";
+        }
+        span5.onclick = function() {
             modal5.style.display = "none";
         }
-    }
 
 };
